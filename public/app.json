@@ -1,0 +1,14 @@
+{
+    "name": "click-game",
+    "description": "",
+    "repository": "https://github.com/takeohiraki/click-game",
+    "logo": "",
+    "keywords": ["static"],
+    "addons": [{
+        "plan": "heroku-postgresql:hobby-dev",
+        "options": {
+          "version": "9.5"
+        }
+     }]
+  }
+  
