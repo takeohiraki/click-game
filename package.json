@@ -2,6 +2,7 @@
   "name": "click-game",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://takeohiraki.github.io/click-game",
   "engines": {
     "npm": "5.7.1",
     "node": "9.5.0"
@@ -20,7 +21,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
