@@ -5,7 +5,7 @@ const express = require("express");
 
 const app = express();
 
-if (process.env.NODE_ENV === "production") {
+/* if (process.env.NODE_ENV === "production") {
   // Express will serve up production assets.
   // Like main.js file or main.css file! (React)
   app.use(express.static("client/build"));
@@ -14,7 +14,7 @@ if (process.env.NODE_ENV === "production") {
   app.get("*", (req, res) => {
     res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
   });
-}
+} */
 
 // Starts the server to begin listening
 // =============================================================
