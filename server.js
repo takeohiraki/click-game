@@ -3,6 +3,8 @@
 
 const express = require("express");
 
+const app = express();
+
 if (process.env.NODE_ENV === "production") {
   // Express will serve up production assets.
   // Like main.js file or main.css file! (React)
