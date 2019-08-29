@@ -3,22 +3,23 @@ import './App.css';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Body from "./components/Body";
 
-// function App() {
-  /* return <Body />; */
-// }
+function App() {
+  return <Body />;
+}
 
-const App = () => {
+
+/* const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter> */
     {/* <div id="app"> */}
   
-        <Switch>
+        {/* <Switch>
           <Route path="/" exact component={Body} />
-        </Switch>
+        </Switch> */}
     {/* </div> */}
-  </BrowserRouter>
+  /* </BrowserRouter>
   )  
-}
+} */
 
 
 export default App;
